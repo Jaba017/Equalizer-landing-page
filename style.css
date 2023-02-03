@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans';
+}
+    body{
+    width: 375px;
+    height: 1945px;
+    background: #F2F2F2;
+    overflow-x: hidden;
+}
+.started-icon {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-one{
+    position: relative;
+    width: 146px;
+    height: 32px;
+    left: 1.5rem;
+    top: 2.3rem;
+}
+.beauty-circle {
+    position:relative;
+    width: 312px;
+    height: 468px;
+    top: -40px; 
+    display: none; 
+}   
+.phone {
+    width: 208px;
+    height: 430px;
+    position: relative;
+    width: 55.7%;
+    top: 9.9rem;
+    left: 21.51%;
+}
+#main-info h1 {
+    width: 327px;
+    height: 144px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #191826;
+    position: relative;
+    left: 24px;
+    top: 5rem;
+}
+#main-info p {
+    position: relative;
+    width: 327px;
+    height: 156px;
+    left: 26px;
+    top: 6rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+.alike-black {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 622px;
+    background-color: #191826;
+    border-radius: 12px;
+    z-index: -1;
+    background-image: url("./assets/bg-pattern-2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-position-y: 0rem ;
+}
+.sect2 {
+    position: relative;
+    width: 384px;
+    height: 546px;
+    left: 0px;
+    top: 17rem;
+    background: #FA7453;
+    border-radius: 12px;
+}
+.sect2 .sect2-h1 {
+    position: relative;
+    width: 302px;
+    height: 40px;
+    left: 36px;
+    top: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9
+}
+.sect2 .sect2-p {
+    position: relative;
+    width: 302px;
+    height: 140px;
+    left: 36px;
+    top: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+}
+#prise {
+    position: relative;
+    top: 6.7rem;
+    left: 2.5rem;
+}
+#prise .cost {
+    position: relative;
+    height: 52px;
+    left: 0%;
+    right: 52.12%;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+}
+#prise span {
+    position: relative;
+    height: 32px;
+    bottom: 0.8rem;
+    left: 5%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FCFAF9;
+}
+#ios-button{
+    position: relative;
+    width: 296px;
+    height: 61px;
+    left: 42px;
+    top: 7.8rem;
+    background: #191826;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+}
+.ios-img {
+    display: flex;
+    margin-top: 0.2rem;
+    margin-left: 4rem;
+}
+#ios-button p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #FCFAF9;
+    margin-top: -1.5rem;
+}
+#android-button {
+    position: relative;
+    width: 296px;
+    height: 61px;
+    left: 42px;
+    top: 145px;
+    background: #FCFAF9;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+#android-button p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #191826;
+    margin-top: -1.6rem;
+    margin-left: 2.2rem;
+}
+.android-img {
+    display: flex;
+    margin-top: 0.2rem;
+    margin-left: 4rem;
+}
+#ios-button:hover{
+    background: #66E2DC;
+}
+#android-button:hover{
+    background: #FFB964;
+}
+footer {
+    margin-top: 20rem;
+    display: flex;
+    flex-wrap:wrap ;
+    position: relative;
+    left: 2rem;
+}
+.footer-info {
+    Width:327px;
+    Height:105px;
+    position: relative;
+    top: 2.3rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+.social-icon {
+    cursor: pointer;
+    position: relative;
+    width: 100px;
+    height: 20px;
+    top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+ .social-icon svg:hover {
+    filter: invert(54%) sepia(90%) saturate(914%) hue-rotate(325deg)
+    brightness(98%) contrast(99%);
+}
+@media screen and (min-width: 400px) {
+    body {
+        height: 1781px;
+    }
+    .beauty-circle {
+        display: inline-block;
+        position: relative;
+        width: 265px;
+        height: 400px;
+        left: 390px;
+        top: -32px;
+    }
+    #main-info {
+        position: relative;
+        bottom: 310px;
+    }
+    #main-info h1 {
+        width: 520px;
+        height: 192px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+    }
+    #main-info p {
+        width: 514px;
+        height: 112px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        top: 7rem;
+    }
+    .main-sect {
+        display: flex;
+     } 
+     .phone {
+        width: 270.21px;
+        height: 556px;
+        top: -5rem;
+        left: 7rem;
+    } 
+    .alike-black {
+        width: 90%;
+        top: 47rem;
+        left: 2.5rem;
+    }
+    .sect2 {
+        width: 399px;
+        top: -18.5rem;
+        left: 18.5rem;
+    }
+    #ios-button {
+        left: 50px;
+    }
+    #android-button {
+        left: 50px;
+    }
+    .sect2-info {
+        left: 1rem;
+        position: relative;
+    }
+    #prise {
+        left: 3.5rem;
+    }
+    footer {
+        margin-top: -10rem
+    }
+    
+    .social-icon {
+          top: -2.6rem;
+          left: 37rem;
+    }
+} 
+@media screen and (min-width: 768px) {
+    body {
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+    .beauty-circle {
+        top: -2.6rem;
+        left: 40.2rem;
+    }
+    #main-info h1 {
+        width: 825px;
+        height: 176px;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 88px;
+    }
+    #main-info p {
+        width: 825px;
+        height: 102px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .phone {
+        width: 312px;
+        height: 642px;
+        left: 4rem;
+    }
+    .alike-black {
+        width: 960px;
+        top: 51rem;
+        background-position-x: 22rem;
+    }
+    .sect2 {
+        left: 31rem;
+        top: -24rem;
+    }
+    .footer-info {
+        left: 18rem;
+        top: -2rem;
+    }
+    .social-icon {
+        left: 50rem;
+        top: -6.5rem;
+    }
+}
+@media screen and (min-width: 1100px) {
+    body {
+        margin-left: 4rem;
+        margin-top: 1rem;
+    }
+    .beauty-circle {
+        top: -2.6rem;
+        left: 55.2rem;
+    }
+    #main-info h1 {
+        width: 1015px;
+        height: 176px;
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 88px;
+    }
+
+    #main-info p {
+        width: 825px;
+        height: 102px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .phone {
+        width: 312px;
+        height: 642px;
+        left: 8rem;
+    }
+    .alike-black {
+        width: 1110px;
+        left: 6.1rem;
+        top: 51rem;
+        background-position-x: 22rem;
+    }
+    .sect2 {
+        left: 40rem;
+        top: -24rem;
+    }
+    .footer-info {
+        left: 25rem;
+        top: -2rem;
+    }
+    .social-icon {
+        left: 64rem;
+        top: -6.5rem;
+    }
+}
+@media screen and (min-width: 1366px) {
+    body {
+        margin-left: 3.7rem;
+    }
+    .alike-black {
+        left: 7.5em;
+    }
+    .social-icon {
+        margin-left: 1.5rem;
+    }
+}
+@media screen and (min-width: 1440px) {
+    body {
+        margin-left: 6rem;
+    }
+    .beauty-circle {
+        left: 56.95rem;
+    }
+    .alike-black {
+        left: 8.8rem;
+    }
+}
+@media screen and (min-width: 1520px) {
+    body {
+        margin-left: 8rem;
+    }
+     .beauty-circle {
+        left: 61rem;
+        width: 275px;
+        height: 410px;
+    }
+    .alike-black {
+        left: 13rem;
+    } 
+    .phone {
+        left: 10rem;
+    }
+    .sect2 {
+        left: 43rem;
+    }
+    .social-icon {
+        margin-left: 2.5rem;
+    }
+}
